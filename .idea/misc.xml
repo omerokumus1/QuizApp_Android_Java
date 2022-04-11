@@ -3,9 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../WorkSpace/AndroidProjects/QuizApp_Java/app/src/main/res/drawable/correct_answer_bg.xml" value="0.32916666666666666" />
         <entry key="../../../WorkSpace/AndroidProjects/QuizApp_Java/app/src/main/res/drawable/default_option_border_bg.xml" value="0.32916666666666666" />
+        <entry key="../../../WorkSpace/AndroidProjects/QuizApp_Java/app/src/main/res/drawable/selected_option_border_bg.xml" value="0.32916666666666666" />
+        <entry key="../../../WorkSpace/AndroidProjects/QuizApp_Java/app/src/main/res/drawable/wrong_answer_bg.xml" value="0.32916666666666666" />
         <entry key="../../../WorkSpace/AndroidProjects/QuizApp_Java/app/src/main/res/layout/activity_main.xml" value="0.33" />
-        <entry key="../../../WorkSpace/AndroidProjects/QuizApp_Java/app/src/main/res/layout/activity_quiz_question.xml" value="0.67" />
+        <entry key="../../../WorkSpace/AndroidProjects/QuizApp_Java/app/src/main/res/layout/activity_quiz_question.xml" value="0.33" />
       </map>
     </option>
   </component>
