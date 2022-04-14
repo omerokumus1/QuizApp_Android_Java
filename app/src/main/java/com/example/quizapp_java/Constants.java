@@ -6,6 +6,7 @@ import java.util.Arrays;
 public class Constants {
 
     static final String USER_NAME = "user_name";
+    static final String SCORE = "SCORE";
 
     public static ArrayList<Question> getQuestions() {
         return new ArrayList<>(

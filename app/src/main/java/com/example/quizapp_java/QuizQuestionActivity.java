@@ -2,6 +2,7 @@ package com.example.quizapp_java;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Bundle;
@@ -123,7 +124,11 @@ public class QuizQuestionActivity extends AppCompatActivity implements View.OnCl
                 selectedOption = null;
                 setQuestion();
             } else if (submitBtn.getText().equals(FINISH)) {
-
+                Intent intent = new Intent(this, ResultActivity.class);
+                intent.putExtra(Constants.USER_NAME, userName);
+                intent.putExtra(Constants.SCORE, correctAnswers);
+                startActivity(intent);
+                finish();
             }
         }
     }
